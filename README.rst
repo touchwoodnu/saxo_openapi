@@ -39,6 +39,14 @@ Interactive
 Using the Jupyter `notebook`_ it is easy to experiment with the
 *saxo_openapi* library.
 
+Try it online using *binder*:
+
+.. image:: https://mybinder.org/badge_logo.svg
+   :target: https://mybinder.org/v2/gh/hootnot/saxo_openapi/master/?filepath=jupyter/index.ipynb
+   :alt: PyPi
+
+
+
 .. _notebook: ./jupyter/index.ipynb
 
 TOC

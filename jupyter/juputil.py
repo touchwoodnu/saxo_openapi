@@ -3,7 +3,11 @@
 
 def read_token(tokenFile="token.txt"):
     with open(tokenFile) as FHtok:
-        return FHtok.read().strip()
+        token = FHtok.read().strip()
+        if not token:
+            print("Please set it up correctly: see index.ipynb")
+
+        return token
 
 
 def request_info(r):
